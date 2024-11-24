@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 3</title>
+
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="./asset/icon/logo_n.png" type="image/x-icon">
+
+    <!-- Css -->
+    <link rel="stylesheet" href="dist/css/style.css">
+
+    <!-- Jonsuh Hamburger -->
+    <link rel="stylesheet" href="dist/css/hamburgers.css">
+
+    <!-- Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Aos Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body id="home">
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <!-- Navbar -->
+            <div class="navbar">
+                <div class="logo">
+                    <h1 data-aos="fade-down" data-aos-duration="1000">Ntravel.<span></span></h1>
+                </div>
+                <ul class="menu">
+                    <h1>Travel</h1>
+                    <h3>Overview</h3>
+                    <li>
+                        <i class="fa-solid fa-house"></i>
+                        <a href="#home" data-aos="fade-down" data-aos-delay="300" data-aos-duration="1000">Home</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-plane"></i>
+                        <a href="#destinasi" data-aos="fade-down" data-aos-delay="300" data-aos-duration="1000">Destination</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-address-card"></i>
+                        <a href="#about" data-aos="fade-down" data-aos-delay="300" data-aos-duration="1000">About us</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-star"></i>
+                        <a href="#services" data-aos="fade-down" data-aos-delay="300" data-aos-duration="1000">Services</a>
+                    </li>
+                    <li>
+                        <a href="#feedback" class="feedback" data-aos="fade-down" data-aos-delay="300" data-aos-duration="1000"><i class="fa-solid fa-comments"></i> FeedBack</a>
+                    </li>
+                </ul>
+                <div class="hb">
+                    <!-- Hamburger Menu -->
+                    <button class="hamburger hamburger--collapse" type="button">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+                    <!-- Hamburger Menu End -->
+                </div>
+            </div>
+            <!-- Navbar End -->
+
+            <!-- Hero Section -->
+            <div class="hero">
+                <h1 data-aos="fade-right" data-aos-duration="1000">
+                    Find Your <span>Dream </span><br />
+                    Place With Us
+                </h1>
+                <p data-aos="fade-right" data-aos-duration="1000">Explore unforgettable destinations with personalized services, expert recommendations, and seamless
+                    journeys designed to create lasting travel memories.</p>
+                <a href="#destinasi" data-aos="fade-right" data-aos-duration="1000">Find Now <i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+            <!-- Hero Section -->
+        </div>
+    </header>
+
+    <!-- Header -->
+
+    <!-- Destination -->
+    <div class="destin" id="destinasi">
+        <div class="container">
+            <h1 data-aos="fade-up" data-aos-duration="1000">Most Viewed</h1>
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                        <img src="./asset/img/v1.jpg" alt="Destination">
+                        <div class="d-des">
+                            <p>Biome Savana, Australia</p>
+                            <h2>Destination 1</h2>
+                            <h4>US$ 800</h4>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+                        <img src="./asset/img/v2.jpg" alt="Destination">
+                        <div class="d-des">
+                            <p>Pajagan City, Indonesia</p>
+                            <h2>Destination 2</h2>
+                            <h4>US$ 650</h4>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+                        <img src="./asset/img/v3.jpg" alt="Destination">
+                        <div class="d-des">
+                            <p>Mountain Fuji, Japan</p>
+                            <h2>Destination 3</h2>
+                            <h4>US$ 900</h4>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./asset/img/v4.jpg" alt="Destination">
+                        <div class="d-des">
+                            <p>Mountain Salak, Indonesia</p>
+                            <h2>Destination 4</h2>
+                            <h4>US$ 700</h4>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./asset/img/v5.jpg" alt="Destination">
+                        <div class="d-des">
+                            <p>Biome Tropic, Swiss</p>
+                            <h2>Destination 5</h2>
+                            <h4>US$ 850</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <!-- Swipper End -->
+        </div>
+    </div>
+    <!-- Destination -->
+
+    <!-- About us-->
+    <div class="about" id="about">
+        <div class="container">
+            <h1 data-aos="fade-up" data-aos-duration="1000">About Us</h1>
+            <div class="about-box">
+                <div class="box" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                    <img src="./asset/img/about.jpg" alt="About-img">
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+                    <h2>Why Should Ntravel ?</h2>
+                    <p>We provide the best travel experiences with personalized services, exploring exotic destinations,
+                        and creating unforgettable memories.</p>
+                    <p>Our team ensures seamless journeys, offering expert recommendations and local insights for every
+                        adventure.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About us end -->
+
+    <!-- Services -->
+    <div class="services" id="services">
+        <div class="container">
+            <h1 data-aos="fade-up" data-aos-duration="1000">Our Work In 3 Steps</h1>
+            <p data-aos="fade-up" data-aos-duration="1000">The service section offers quick and effective online solutions.</p>
+            <div class="s-box">
+                <div class="box" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                    <i class="fa-solid fa-plane"></i>
+                    <h3>Beautiful trip</h3>
+                    <p>Explore our dream destinations and create unforgettable memories with every adventure you embark
+                        upon.</p>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+                    <i class="fa-solid fa-handshake-simple"></i>
+                    <h3>Make a Deal</h3>
+                    <p>Take advantage of our offers now to get the best prices and unforgettable travel experiences!</p>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+                    <i class="fa-solid fa-hand-holding-dollar"></i>
+                    <h3>Determine The Prices</h3>
+                    <p>Discover the best prices with exciting offers and enjoy maximum value for your unforgettable
+                        experience!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services end -->
+
+    <!-- Feedback -->
+    <div class="feedback" id="feedback">
+        <div class="container">
+            <h1 data-aos="fade-up" data-aos-duration="1000">
+                Feedback <br />
+                From Our Customer
+            </h1>
+            <div class="f-box">
+                <div class="box" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                    <p>Travel experiences are very helpful in improving service quality, providing comfort, and ensuring
+                        tourist satisfaction in every aspect of the journey, from accommodation to transportation and
+                        local attractions.</p>
+                    <div class="people">
+                        <img src="./asset/img/people-1.jpg" alt="People 1">
+                        <div class="p-desk">
+                            <h3>Sarah Morgan</h3>
+                            <p>Psychologist</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+                    <p>Travel experiences are very helpful in improving service quality, providing comfort, and ensuring
+                        tourist satisfaction in every aspect of the journey, from accommodation to transportation and
+                        local attractions.</p>
+                    <div class="people">
+                        <img src="./asset/img/people-2.jpg" alt="People 2">
+                        <div class="p-desk">
+                            <h3>James Anderson</h3>
+                            <p> Doctor</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+                    <p>Travel experiences are very helpful in improving service quality, providing comfort, and ensuring
+                        tourist satisfaction in every aspect of the journey, from accommodation to transportation and
+                        local attractions.</p>
+                    <div class="people">
+                        <img src="./asset/img/people-3.jpg" alt="People 3">
+                        <div class="p-desk">
+                            <h3>Emily Harper</h3>
+                            <p>Graphic Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <p>Travel experiences are very helpful in improving service quality, providing comfort, and ensuring
+                        tourist satisfaction in every aspect of the journey, from accommodation to transportation and
+                        local attractions.</p>
+                    <div class="people">
+                        <img src="./asset/img/people-1.jpg" alt="People 1">
+                        <div class="p-desk">
+                            <h3>Sarah Morgan</h3>
+                            <p>Psychologist</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <p>Travel experiences are very helpful in improving service quality, providing comfort, and ensuring
+                        tourist satisfaction in every aspect of the journey, from accommodation to transportation and
+                        local attractions.</p>
+                    <div class="people">
+                        <img src="./asset/img/people-2.jpg" alt="People 2">
+                        <div class="p-desk">
+                            <h3>James Anderson</h3>
+                            <p> Doctor</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <p>Travel experiences are very helpful in improving service quality, providing comfort, and ensuring
+                        tourist satisfaction in every aspect of the journey, from accommodation to transportation and
+                        local attractions.</p>
+                    <div class="people">
+                        <img src="./asset/img/people-3.jpg" alt="People 3">
+                        <div class="p-desk">
+                            <h3>Emily Harper</h3>
+                            <p>Graphic Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <p>Travel experiences are very helpful in improving service quality, providing comfort, and ensuring
+                        tourist satisfaction in every aspect of the journey, from accommodation to transportation and
+                        local attractions.</p>
+                    <div class="people">
+                        <img src="./asset/img/people-1.jpg" alt="People 1">
+                        <div class="p-desk">
+                            <h3>Sarah Morgan</h3>
+                            <p>Psychologist</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <p>Travel experiences are very helpful in improving service quality, providing comfort, and ensuring
+                        tourist satisfaction in every aspect of the journey, from accommodation to transportation and
+                        local attractions.</p>
+                    <div class="people">
+                        <img src="./asset/img/people-2.jpg" alt="People 2">
+                        <div class="p-desk">
+                            <h3>James Anderson</h3>
+                            <p> Doctor</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <p>Travel experiences are very helpful in improving service quality, providing comfort, and ensuring
+                        tourist satisfaction in every aspect of the journey, from accommodation to transportation and
+                        local attractions.</p>
+                    <div class="people">
+                        <img src="./asset/img/people-3.jpg" alt="People 3">
+                        <div class="p-desk">
+                            <h3>Emily Harper</h3>
+                            <p>Graphic Designer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="load-more">
+                <button class="lm-button">Load More <i class="fa-solid fa-arrow-down"></i></button>
+            </div>
+        </div>
+    </div>
+    <!-- Feedback end -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-box">
+                <div class="box">
+                    <h3>Travel</h3>
+                    <p>Contact Us Here</p>
+                    <div class="footer-icons">
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-square-x-twitter"></i>
+                        <i class="fa-brands fa-square-reddit"></i>
+                        <i class="fa-brands fa-square-instagram"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <h3>Menu</h3>
+                    <a href="#home">Home</a>
+                    <a href="#destinasi">Destination</a>
+                    <a href="#about">About Us</a>
+                    <a href="#services">Services</a>
+                    <a href="#feedback">Feedback</a>
+                </div>
+                <div class="box">
+                    <h3>Contact Us</h3>
+                    <p><i class="fa-solid fa-envelope"></i> ntravel@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> (033) 7454 5566 33</p>
+                    <p><i class="fa-solid fa-location-dot"></i> 250 W 42nd St, New York, NY 10036, USA</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Copyright-->
+    <div class="cp">
+        <p>&copy; Copyright 2024 by <span>Nopandi</span></p>
+    </div>
+    <!-- Copyright end -->
+
+    <!-- Javascript -->
+    <script src="./dist/js/script.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                575: {
+                    slidesPerView: 2,
+                    spaceBetween: 40,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 50,
+                },
+            },
+        });
+    </script>
+
+    <!-- Aos Animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
